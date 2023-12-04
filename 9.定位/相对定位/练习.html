@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #box{
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            padding: 10px;
+        }
+        a{
+            width: 100px;
+            height: 100px;
+            text-decoration: none;
+            background: rgb(14, 184, 147);
+            line-height: 100px;
+            text-align: center;
+            color: white;
+            display: block;
+        }
+        a:hover{
+            background: blue;
+        }
+        .a2,.a4{
+            position: relative;
+            left: 200px;
+            top: -100px
+        }
+        .a5{
+            position: relative;
+            right: -100px;
+            bottom: 300px;
+        }
+/* 相对定位: 
+        相对于原来的位置, 进行指定的偏移
+        它仍然在标准文档流中,原来的位置会被保留
+*/
+    </style>
+</head>
+<body>
+    <div id="box">
+        <a class="a1" href="#">按钮1</a>
+        <a class="a2" href="#">按钮2</a>
+        <a class="a3" href="#">按钮3</a>
+        <a class="a4" href="#">按钮4</a>
+        <a class="a5" href="#">按钮5</a>
+    </div>
+</body>
+</html>

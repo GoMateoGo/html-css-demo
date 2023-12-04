@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+        1. 颜色: 
+            单词, RGB 0~F, RBGA
+        2. 文本对齐方式: 
+            (排版)text-align:
+        3. 首行缩进:
+            text-indent: 2em;
+
+            行高和块高度一样,才能剧中
+            height: 100px;
+            line-height: 100px;
+     -->
+     <style>
+        h1{
+            color: rgba(221, 46, 177, 0.7);
+            text-align: center;
+        }
+        .p1{
+            text-indent: 2em;
+        }
+        .p2{
+            background: greenyellow;
+            height: 100px;
+            line-height: 100px;
+        }
+        /* 线的装饰 */
+        .p11{
+            /* 下划线 */
+            text-decoration: underline;
+        }
+        .p22{
+            /* 中划线 */
+            text-decoration: line-through;
+        }
+        .p33{
+            /* 上划线 */
+            text-decoration: overline;
+        }
+        img,span{
+            vertical-align: middle;
+        }
+     </style>
+
+</head>
+<body>
+    <p>
+        <img src="images/qq.png" alt="">
+        <span>111111111111111</span>
+    </p>
+    <p class="p11">qweqweqwe</p>
+    <p class="p22">qweqweqwe</p>
+    <p class="p33">qweqweqwe</p>
+
+    <h1>S介绍:</h1>
+    <p class="p1">
+        s 是拉丁字母中的第19个字母。s在不同地方均有不同的意思
+    </p>
+    <p>
+        例如：在物理学中，s的意思为秒，它是计时单位；在化学中，表示硫（sulfur）的化学符号；
+    </p>
+    <p>
+        在计算机中，是一种统计编程语言；
+    </p>
+    <p class="p2">
+        在S.H.E中为Selina；在好莱坞电影《超人》里面则是美国英雄Superman家族的标志以及氪星里希望的标志。
+    </p>
+</body>
+</html>

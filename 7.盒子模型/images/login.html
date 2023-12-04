@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h2,h1,ul,li,a,body{
+            /* body总有一个默认的外边距 margin: 0  */
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        /* border: 粗细, 样式(实现,虚线), 颜色 */
+        #app{
+            width: 300px;
+            border: 1px solid red ;
+            /* margin: 上 右 下 左 */
+            margin: 50px auto;
+        }
+
+        form{
+            background-color: greenyellow;
+        }
+
+        div:nth-of-type(1) > input{
+            border: 3px solid black;
+        }
+
+        div:nth-of-type(2) > input{
+            border: 3px solid orange;
+        }
+        h2{
+            font-size: 20px;
+            background-color: yellowgreen;
+            line-height: 30px;
+            color: white;
+            text-align: center;
+        }
+        input{
+            border: 1px solid black;
+        }
+        div:nth-of-type(1){
+            padding: 10px 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h2>会员登录</h2>
+        <form action="#">
+            <div>
+                <span>姓名:</span>
+                <input type="text">
+            </div>
+            <div>
+                <span>密码:</span>
+                <input type="password">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
